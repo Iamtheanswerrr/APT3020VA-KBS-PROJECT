@@ -1,11 +1,16 @@
 # APT3020VA-KBS-PROJECT
 Family Tree Knowledge Base System (Prolog)
+
 Overview
+
 This project is a comprehensive Family Tree Knowledge Base System implemented in Prolog. It models detailed family relationships, gender, age, marital status, kinship, and other traits within a structured family database. The system enables advanced queries about family structures, including siblings, half-siblings, in-laws, ancestors, descendants, and kinship distances.
 
 Designed as an enhanced and extensible knowledge-based system, it demonstrates the power of logic programming for representing complex real-world relationships with clear, logical rules.
 
+
+
 Features
+
 Gender Declarations: Identify individuals as male or female.
 
 Age Classification: Track age, compare ages, and identify seniors.
@@ -28,28 +33,42 @@ Fun Facts: Store interesting personal traits or hobbies for flavor.
 
 Festival Participation: Demonstrate complex querying with festival participant outputs.
 
+
+
 Project Structure
+
 Prolog Knowledge Base (family_ID668211_KB.pl)
 Contains all facts and rules representing individuals, family relationships, age data, marriage status, kinship definitions, and auxiliary predicates.
 
+
+
 Documentation (docs/)
+
 Comprehensive academic-style documentation detailing all components, rules, predicates, and example queries.
 
 Example Queries (queries.pl)
+
 Sample Prolog queries demonstrating how to retrieve information such as siblings, uncles, cousins, kinship distances, and more.
 
+
+
 Getting Started
+
 Prerequisites
+
 SWI-Prolog installed on your machine.
 
+
+
 Installation
+
 Clone this repository:
 
 bash
 Copy
 Edit
-git clone https://github.com/your-username/family_ID668211_kb.git
-cd family_ID668211_kb
+git clone https://github.com/Iamtheanswerrr/APT3020VA-KBS-PROJECT.git
+cd fAPT3020VA-KBS-PROJECT
 Open SWI-Prolog and consult the knowledge base:
 
 prolog
@@ -90,7 +109,10 @@ P = [laura, nina, sophia, mia].
 ?- findall(X, family_member(X), List).
 List = [...].
 
+
+
 Query Examples
+
 Find all sisters or brothers.
 
 Identify uncles and aunts of a person.
@@ -105,8 +127,14 @@ List all family members.
 
 Check who can drive based on age and license.
 
+
+
 Contributing
+
 Contributions to extend the dataset, add new relationships, or improve documentation are welcome. Please submit pull requests or open issues for discussion.
 
+
+
 License
+
 This project is licensed under the MIT License.
